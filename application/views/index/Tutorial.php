@@ -126,7 +126,7 @@ $this->load->view($this->config->item('theme') . 'header');
  <h3>Username</h3>
  <p><span style="font-weight: bold">Date Created:</span> 12/14/2020 </p>
  </div>
-<button>Heart button</button>
+<button>Heart button here</button>
 <button>More tutorials</button>
 </div>
 </div>
