@@ -98,6 +98,18 @@ $this->load->view($this->config->item('theme') . 'header');
     -webkit-box-shadow: 0 4px 15px -5px #818181; box-shadow: 0 4px 15px -5px #818181;
     }
 
+    .comment-div {
+    background: whitesmoke;
+    width: 75%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: solid lightgray 5px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: white;
+    -webkit-box-shadow: 0 4px 15px -5px #818181; box-shadow: 0 4px 15px -5px #818181;
+    }
+
     h3 {
         font-size: 40px;
     }
@@ -208,7 +220,7 @@ $this->load->view($this->config->item('theme') . 'header');
 
 <div class="comment-div">
 <h2>Comments</h2>
-<input placeholder="Enter Text Here..."/>
+<input placeholder="Enter Text Here..." type="text" class="form-control" style="padding:20px; margin:30px; width:94%;"/>
 </div>
 
 </div>
