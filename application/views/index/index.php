@@ -40,6 +40,9 @@ h2 { font-size: 1em; text-align: center; margin-top: 10px;}
 img { max-width: 100%; border-radius: 30px;}
 
 </style>
+
+
+
 <h1 class="title-home"> Dashboard</h1>
 <div id="container">
     <div class="grid">
@@ -80,7 +83,7 @@ img { max-width: 100%; border-radius: 30px;}
             </div> <!-- /.grid-item-caption -->
         </div><!-- /.grid-item -->
 
-        <div class="grid-item">
+        <div class="grid-item" id="myBtn">
             <div class="grid-item-img">
                 <img src="https://images.unsplash.com/photo-1526304760382-3591d3840148?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"  alt="Visuel">
             </div> <!-- /.grid-item-img -->
@@ -219,6 +222,14 @@ img { max-width: 100%; border-radius: 30px;}
         
     </div><!-- /.grid -->
 </div>
+
+  <script>
+    var btn = document.getElementById('myBtn');
+    btn.addEventListener('click', function() {
+      document.location.href = 'http://web-students.net/site121/5';
+    });
+  </script>
+
 <?php
 
 $this->load->view($this->config->item('theme') . 'footer');
