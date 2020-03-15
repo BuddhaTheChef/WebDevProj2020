@@ -47,13 +47,14 @@ img { max-width: 100%; border-radius: 30px;}
 <div id="container">
     <div class="grid">
 
-        <div class="grid-item">
+        <div class="grid-item"><a href="http://web-students.net/site121/index/Tutorial">
             <div class="grid-item-img">
                 <img src="https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80"  alt="Visuel">
             </div> <!-- /.grid-item-img -->
             <div class="grid-item-caption">
                 <h2>Title 1</h2>
             </div> <!-- /.grid-item-caption -->
+            </a>
         </div><!-- /.grid-item -->
 
         <div class="grid-item">
